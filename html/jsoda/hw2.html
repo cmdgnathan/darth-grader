@@ -1,0 +1,38 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/core.css">
+  <link rel="stylesheet" type="text/css" href="css/util.css">
+</head>
+<body>
+  <div id="jsoda-menu">
+    <p id="jsoda-box-list"></p>
+    <input type="file" onchange="loadImage(this)" style="display: none"/>
+    <input type="button" value="Upload" onclick="clickInputFile()" />
+    <input type="button" value="Download" onclick="download()" />
+  </div>
+
+  <div id="jsoda-workspace">
+    <canvas id="jsoda-canvas"></canvas>
+    <img id="jsoda-image" src="Directions_Page.jpg"></img>
+  </div>
+
+
+  <script src="js/core.js"></script>
+  <script src="js/util.js"></script>
+  <script>
+    addBoxTypeWithNameAndColor("2.2", "#FF0000");
+    addBoxTypeWithNameAndColor("2.10", "#FF0000");
+    addBoxTypeWithNameAndColor("2.11", "#FF0000");
+    addBoxTypeWithNameAndColor("2.12", "#FF0000");
+    addBoxTypeWithNameAndColor("2.13", "#FF0000");
+    addBoxTypeWithNameAndColor("2.15", "#FF0000");
+    addBoxTypeWithNameAndColor("2.18", "#FF0000");
+    addBoxTypeWithNameAndColor("2.19", "#FF0000");
+    addBoxTypeWithNameAndColor("2.28", "#FF0000");
+    addBoxTypeWithNameAndColor("2.38", "#FF0000");
+    addBoxTypeWithNameAndColor("2.62", "#FF0000");
+    addBoxTypeWithNameAndColor("2.63", "#FF0000");
+    addBoxTypeWithNameAndColor("2.78", "#FF0000");
+  </script>
+</body>
+</html>
